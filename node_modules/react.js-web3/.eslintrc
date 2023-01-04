@@ -1,0 +1,78 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "global-require": "off",
+        "no-console": "off",
+        "no-undef": "off",
+        "no-underscore-dangle": "off",
+        "no-unused-expressions": "off",
+        "arrow-body-style": "off",
+        "comma-dangle": "off",
+        "function-paren-newline": "off",
+        "import/first": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/no-dynamic-require": "off",
+        "import/no-named-as-default": "off",
+        "consistent-return": "off",
+        "camelcase": "off",
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "quotes": "off",
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "semi-spacing": [
+            "error",
+            {
+                "after": true,
+                "before": false
+            }
+        ],
+        "semi-style": [
+            "error",
+            "last"
+        ],
+        "no-extra-semi": "error",
+        "no-unexpected-multiline": "error",
+        "no-unreachable": "error",
+        "array-bracket-spacing": [
+            2,
+            "never"
+        ],
+        "keyword-spacing": 2,
+        "eol-last": 2,
+        "no-trailing-spaces": 2,
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            {
+                "specialLink": [
+                    "to"
+                ]
+            }
+        ],
+        "jsx-a11y/label-has-for": [
+            2,
+            {
+                "required": {
+                    "every": [
+                        "nesting",
+                        "id"
+                    ]
+                }
+            }
+        ]
+    }
+}
